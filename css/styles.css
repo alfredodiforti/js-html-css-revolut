@@ -84,3 +84,9 @@ header .rightheader li button {
 .dropdown-menu ul li {
   padding:13px;
 }
+.dropdown-menu ul li span {
+  color: #d8318b;
+  font-size: 9px;
+  position: relative;
+  bottom: 7px;
+}

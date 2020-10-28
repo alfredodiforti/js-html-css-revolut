@@ -2,11 +2,18 @@
 $(document).ready(function() {
 // reference
 var clickprodotti = $('.whitdropdown > a');
-var menuprodotti = $('.whitdropdow > .dropdown-menu')
+var menuprodotti = $('.whitdropdown > .dropdown-menu')
 
 // show/hide menu
 clickprodotti.click(function(){
- $(this).next('.dropdown-menu').toggle();
+
+var actualmenu = $(this).next('.dropdown-menu');
+
+menuprodotti.not(actualmenu).hide()
+
+actualmenu.toggle();
+
+
 });
 
 
