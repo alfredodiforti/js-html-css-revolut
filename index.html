@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <title>js-html-css-revolut</title>
     <!-- CDN JQUERY  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body class="contenitore">
     <!-- HEADER -->
@@ -27,10 +27,23 @@
       </div>
       <!-- rightheader -->
       <div class="rightheader">
-        <ul>
+        <ul class="rightmenucontent">
           <li>Tariffazione</li>
           <li>Conti</li>
-          <li>Prodotti</li>
+          <li class="whitdropdown"> <a href="#">Prodotti</a>
+            <!-- dropmenu1 -->
+            <div class="dropdown-menu">
+              <ul>
+                <li>Trasferimenti di denaro</li>
+                <li>Vault</li>
+                <li>Gestione Budget</li>
+                <li>Perk</li>
+                <li>Criptovaluta</li>
+                <li>Assicurazione Smartphone</li>
+                <li>Assicurazione medica internazionale</li>
+              </ul>
+            </div>
+            <!-- end --></li>
           <li>Azienda</li>
           <li>Aiuto</li>
           <li>it <i class="fas fa-angle-down"></i></li>
