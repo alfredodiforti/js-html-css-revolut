@@ -1,0 +1,64 @@
+/* General Styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+.contenitore {
+  width: 1170px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+/* construction style header left */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .leftheader {
+  flex-basis: 25%;
+}
+header .leftheader ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+header .leftheader img {
+  width: 80px;
+}
+header .leftheader li {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #a1a6ad;
+}
+/* construction style header right */
+header .rightheader {
+  flex-basis: 45%;
+}
+header .rightheader ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+header .rightheader li {
+  font-size: 12px;
+  color: #a1a6ad;
+}
+header .rightheader li i {
+  font-size: 9px;
+  position: relative;
+  top: 1px;
+}
+header .rightheader li button {
+  color: white;
+  background-color: #d8318b;
+  padding: 12px 20px;
+  border: 0px;
+  border-radius: 60px;
+}
